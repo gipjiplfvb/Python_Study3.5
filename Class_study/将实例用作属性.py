@@ -26,7 +26,6 @@ class Battery():
 	def __init__(self, battery_size = 70):
 		"""初始化电瓶属性"""
 		self.battery_size = battery_size
-
 	def describe_battery(self):
 		"""打印一条描述电瓶容量的消息"""
 		print ("This car has a " + str(self.battery_size) + "-KWh battery.")
@@ -36,25 +35,57 @@ class Battery():
 			range = 240
 		elif self.battery_size == 85:
 			range = 270
-
 		message = "This Car can go approximately " + str(range)
 		message += " miles on a full charge."
 		print (message)
+class ElectricCar(Car):
+	"""电瓶汽车的独特之处"""
+	def __init__(self, make, model, year):
+		"""
+		初始化父类的属性，再初始化电动汽车特有的属性
+		"""
+		super().__init__(make, model, year)
+		self.battery = Battery()
+#此处的将实例用作属性，相当于下面的代码
+#从60行开始
+#把Battery为中的实例指定给属性self.battery。再调用Battery中的函数是便使用battery.xxxx的方法。如90-92行
+'''
 
 class ElectricCar(Car):
 	"""电瓶汽车的独特之处"""
 	def __init__(self, make, model, year):
 		"""
 		初始化父类的属性，再初始化电动汽车特有的属性
-		:param make:
-		:param model:
-		:param year:
 		"""
 		super().__init__(make, model, year)
-		self.battery = Battery()
+		self.battery_size = 70
+#		self.battery = Battery()
+	
+	def describe_battery(self):	
+		"""打印一条描述电瓶容量的消息"""
+		print ("This car has a " + str(self.battery_size) + "-KWh battery.")
+	def get_range(self):
+		"""打印一条消息，指出电瓶的续航里程"""
+		if self.battery_size == 70:
+			range = 240
+		elif self.battery_size == 85:
+			range = 270
+		message = "This Car can go approximately " + str(range)
+		message += " miles on a full charge."
+		print (message)
+		
+#		self.battery = Battery()
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+print (my_tesla.get_descriptive_name())
+#my_tesla.battery_size=85
+my_tesla.describe_battery()
+my_tesla.get_range()
+print ("***********************")
+
+
+'''
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
-
 print (my_tesla.get_descriptive_name())
 my_tesla.battery.battery_size=85
 my_tesla.battery.describe_battery()
