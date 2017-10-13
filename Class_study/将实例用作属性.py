@@ -1,5 +1,6 @@
 class Car():
 	"""一次模拟汽车的简单尝试"""
+
 	def __init__(self, make, model, year):
 		self.make = make
 		self.model = model
@@ -21,14 +22,18 @@ class Car():
 
 	def increment_odometer(self, miles):
 		self.odometer_reading += miles
+
 class Battery():
 	"""一次模拟电动汽车电瓶的简单尝试"""
+
 	def __init__(self, battery_size = 70):
 		"""初始化电瓶属性"""
 		self.battery_size = battery_size
+
 	def describe_battery(self):
 		"""打印一条描述电瓶容量的消息"""
 		print ("This car has a " + str(self.battery_size) + "-KWh battery.")
+
 	def get_range(self):
 		"""打印一条消息，指出电瓶的续航里程"""
 		if self.battery_size == 70:
@@ -38,8 +43,10 @@ class Battery():
 		message = "This Car can go approximately " + str(range)
 		message += " miles on a full charge."
 		print (message)
+
 class ElectricCar(Car):
 	"""电瓶汽车的独特之处"""
+
 	def __init__(self, make, model, year):
 		"""
 		初始化父类的属性，再初始化电动汽车特有的属性
@@ -53,17 +60,18 @@ class ElectricCar(Car):
 
 class ElectricCar(Car):
 	"""电瓶汽车的独特之处"""
+	
 	def __init__(self, make, model, year):
 		"""
 		初始化父类的属性，再初始化电动汽车特有的属性
 		"""
 		super().__init__(make, model, year)
 		self.battery_size = 70
-#		self.battery = Battery()
-	
+
 	def describe_battery(self):	
 		"""打印一条描述电瓶容量的消息"""
 		print ("This car has a " + str(self.battery_size) + "-KWh battery.")
+		
 	def get_range(self):
 		"""打印一条消息，指出电瓶的续航里程"""
 		if self.battery_size == 70:
@@ -74,7 +82,6 @@ class ElectricCar(Car):
 		message += " miles on a full charge."
 		print (message)
 		
-#		self.battery = Battery()
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print (my_tesla.get_descriptive_name())
 #my_tesla.battery_size=85
