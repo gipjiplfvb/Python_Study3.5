@@ -1,4 +1,3 @@
-"""一个模块里面存储多个类"""
 """一组用于表示燃油汽车和电动汽车的类"""
 class Car():
 	"""一次模拟描述汽车的简单尝试"""
@@ -10,7 +9,7 @@ class Car():
 
 	def get_descriptive_name(self):
 		"""返回整洁的描述性名称"""
-		long_name = str(self.year) + ' ' + self.make + self.model
+		long_name = str(self.year) + ' ' + self.make + " " + self.model
 		print (long_name.title())
 
 	def read_odometer(self):
@@ -33,6 +32,7 @@ class Car():
 		self.odometer_reading += miles
 class Battery():
 	"""一次模拟电动汽车电瓶的简单尝试"""
+
 	def __init__(self, battery_size = 70):
 		"""初始化电瓶的属性"""
 		self.battery_size = battery_size
@@ -51,7 +51,6 @@ class Battery():
 		message = "This car can go approximately " + str(range)
 		message += " miles on full charge"
 		print (message)
-
 class ElectricCar(Car):
 	"""模拟电动汽车的独特之处"""
 	def __init__(self, make, model, year):
@@ -60,11 +59,8 @@ class ElectricCar(Car):
 		:param make:
 		:param model:
 		:param year:
+		:return:
 		"""
 		super().__init__(make, model, year)
 		self.battery = Battery()
-
-
-
-
 
