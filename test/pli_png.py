@@ -31,6 +31,7 @@ f = lazy_sum([1, 3, 5, 7, 9])
 print (f)
 
 '''
+'''
 import getpass
 _name = 'abc'
 _passwd = 'abc123'
@@ -46,3 +47,11 @@ while count<3:
     count += 1
 else:
     print("您输入错误次数达到三次，请稍后再试！")
+'''
+a ="""
+a *\ 20 
+111111111111111
+222222222222
+33333333333
+"""
+print (a)
