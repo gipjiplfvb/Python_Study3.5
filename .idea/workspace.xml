@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd8110fb-a124-435b-acf0-0666c070baf7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/ailen_invasion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/bullet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/game_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alien_invasion(外星人入侵）/ship.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试代码/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试代码/name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试代码/name_function.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/测试代码/test_namefounction.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/银行存钱取钱(最简）.py" afterPath="$PROJECT_DIR$/test/银行存钱取钱(最简）.py" />
     </list>
     <ignored path="D:\Python_Study3.5\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,36 +24,95 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_Study3_5$car.coverage" NAME="car Coverage Results" MODIFIED="1507875226392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_study" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$pytesseract.coverage" NAME="pytesseract Coverage Results" MODIFIED="1508141136709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python35/Lib/site-packages/pytesseract" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$more_class.coverage" NAME="more_class Coverage Results" MODIFIED="1507889364499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_study" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$_.coverage" NAME="银行存钱取钱(最简） Coverage Results" MODIFIED="1508654327810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old.coverage" NAME="guess_old Coverage Results" MODIFIED="1506050949498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$electric_car__1_.coverage" NAME="electric_car (1) Coverage Results" MODIFIED="1507879671965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_study" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old_.coverage" NAME="guess_old_任性玩 Coverage Results" MODIFIED="1506051443427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_testnamefounction_NamesTestCase.coverage" NAME="Unittests for 测试代码.test_name_founction.NamesTestCase Coverage Results" MODIFIED="1508660294282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_test_name_founction_NamesTestCase_test_first_last_name.coverage" NAME="Unittests for test_name_founction.NamesTestCase.test_first_last_name Coverage Results" MODIFIED="1508659677466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_test_name_founction_NamesTestCase.coverage" NAME="Unittests for test_name_founction.NamesTestCase Coverage Results" MODIFIED="1508659155980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$pi_string.coverage" NAME="pi_string Coverage Results" MODIFIED="1508296077869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$abnormal.coverage" NAME="abnormal Coverage Results" MODIFIED="1508378732479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old_while.coverage" NAME="guess_old_while语句 Coverage Results" MODIFIED="1506051417470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_test_name_founction_NamesTestCase_test_firstlastname.coverage" NAME="Unittests for test_name_founction.NamesTestCase.test_firstlastname Coverage Results" MODIFIED="1508661295976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$sys.coverage" NAME="试用sys Coverage Results" MODIFIED="1506499137956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$ailen_invasion.coverage" NAME="ailen_invasion Coverage Results" MODIFIED="1508837305115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$favorite_languages.coverage" NAME="favorite_languages Coverage Results" MODIFIED="1508047977701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_study" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$FS.coverage" NAME="FS Coverage Results" MODIFIED="1508649258061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$write_message.coverage" NAME="write_message Coverage Results" MODIFIED="1508310540735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$for_range_.coverage" NAME="for语句的简单运用(range) Coverage Results" MODIFIED="1505471737535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$electric_car.coverage" NAME="electric_car Coverage Results" MODIFIED="1507702758880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$divsion.coverage" NAME="divsion Coverage Results" MODIFIED="1508403123667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$file_reader.coverage" NAME="file_reader Coverage Results" MODIFIED="1508228258140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
-    <SUITE FILE_PATH="coverage/Python_Study3_5$.coverage" NAME="银行存钱取钱 Coverage Results" MODIFIED="1508404158099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$game_functions.coverage" NAME="game_functions Coverage Results" MODIFIED="1508836009613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$DAY1.coverage" NAME="类DAY1 Coverage Results" MODIFIED="1506671496015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$Car.coverage" NAME="Car Coverage Results" MODIFIED="1507538915962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类" />
     <SUITE FILE_PATH="coverage/Python_Study3_5$pli_png.coverage" NAME="pli_png Coverage Results" MODIFIED="1508566829163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$pytesseract.coverage" NAME="pytesseract Coverage Results" MODIFIED="1508141136709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python35/Lib/site-packages/pytesseract" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_test_name_founction_NamesTestCase_testfirst_last_name.coverage" NAME="Unittests for test_name_founction.NamesTestCase.testfirst_last_name Coverage Results" MODIFIED="1508659273673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$ship.coverage" NAME="ship Coverage Results" MODIFIED="1508828317039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old.coverage" NAME="guess_old Coverage Results" MODIFIED="1506050949498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$electric_car__1_.coverage" NAME="electric_car (1) Coverage Results" MODIFIED="1507879671965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_study" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old_.coverage" NAME="guess_old_任性玩 Coverage Results" MODIFIED="1506051443427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_test_name_founction_NamesTestCas_test_first_last_name.coverage" NAME="Unittests for test_name_founction.NamesTestCas.test_first_last_name Coverage Results" MODIFIED="1508657385491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$guess_old_while.coverage" NAME="guess_old_while语句 Coverage Results" MODIFIED="1506051417470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$divsion.coverage" NAME="divsion Coverage Results" MODIFIED="1508403123667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件和异常" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_in_test_name_founction_py.coverage" NAME="Unittests in test_namefounction.py Coverage Results" MODIFIED="1508661316997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$.coverage" NAME="银行存钱取钱 Coverage Results" MODIFIED="1508404158099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$Unittests_for_testnamefounction_NamesTestCase_testfirstlast_name.coverage" NAME="Unittests for testnamefounction.NamesTestCase.testfirstlast_name Coverage Results" MODIFIED="1508659691462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$name.coverage" NAME="name Coverage Results" MODIFIED="1508656786604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试代码" />
+    <SUITE FILE_PATH="coverage/Python_Study3_5$bullet.coverage" NAME="bullet Coverage Results" MODIFIED="1508833511540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="银行存钱取钱(最简）.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/银行存钱取钱(最简）.py">
+      <file leaf-file-name="ailen_invasion.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/ailen_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/game_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ship.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/ship.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bullet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/bullet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +176,17 @@
         <option value="$PROJECT_DIR$/test/pli_png.py" />
         <option value="$PROJECT_DIR$/test/FS.py" />
         <option value="$PROJECT_DIR$/test/银行存钱取钱(最简）.py" />
+        <option value="$PROJECT_DIR$/测试代码/name_function.py" />
+        <option value="$PROJECT_DIR$/测试代码/name.py" />
+        <option value="$PROJECT_DIR$/测试代码/testnamefounction.py" />
+        <option value="$PROJECT_DIR$/测试代码/test_name_founction.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/image/settings.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/ship.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/images/bullet.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/ailen_invasion.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/game_functions.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/bullet.py" />
+        <option value="$PROJECT_DIR$/alien_invasion(外星人入侵）/settings.py" />
       </list>
     </option>
   </component>
@@ -118,7 +197,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
+    <option name="x" value="433" />
     <option name="y" value="-13" />
     <option name="width" value="697" />
     <option name="height" value="862" />
@@ -157,23 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python_Study3.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Study3.5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Study3.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Study3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -190,15 +252,39 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_Study3.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Study3.5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Study3.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Study3.5" type="462c0819:PsiDirectoryNode" />
+              <item name="alien_invasion(外星人入侵）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Study3.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Study3.5" type="462c0819:PsiDirectoryNode" />
+              <item name="alien_invasion(外星人入侵）" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python_Study3.5\alien_invasion(外星人入侵）" />
       <recent name="D:\Python_Study3.5\基础" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -217,60 +303,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.银行存钱取钱(最简）">
-    <configuration name="银行存钱取钱" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ailen_invasion">
+    <configuration name="Unittests for 测试代码.test_namefounction.NamesTestCase.test_firstlastname" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Study3.5" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Python_Study3.5\test\银行存钱取钱(最简）.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;测试代码.test_namefounction.NamesTestCase.test_firstlastname&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="FS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in test_namefounction.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Study3.5" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/FS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="银行存钱取钱(最简）" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_Study3.5" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/银行存钱取钱(最简）.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/测试代码/test_namefounction.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="abnormal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,74 +352,92 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="divsion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ailen_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件和异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Study3.5" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件和异常/divsion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion(外星人入侵）/ailen_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="file_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bullet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件和异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Study3.5" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件和异常/file_reader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion(外星人入侵）/bullet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="pli_png" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="game_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Study3.5" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/pli_png.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion(外星人入侵）/game_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ship" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alien_invasion(外星人入侵）" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_Study3.5" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion(外星人入侵）/ship.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.divsion" />
-      <item index="1" class="java.lang.String" itemvalue="Python.银行存钱取钱" />
-      <item index="2" class="java.lang.String" itemvalue="Python.银行存钱取钱(最简）" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pli_png" />
-      <item index="4" class="java.lang.String" itemvalue="Python.FS" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for 测试代码.test_namefounction.NamesTestCase.test_firstlastname" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ailen_invasion" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ship" />
+      <item index="3" class="java.lang.String" itemvalue="Python.game_functions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bullet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.银行存钱取钱(最简）" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FS" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pli_png" />
-        <item index="3" class="java.lang.String" itemvalue="Python.银行存钱取钱" />
-        <item index="4" class="java.lang.String" itemvalue="Python.divsion" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ailen_invasion" />
+        <item index="1" class="java.lang.String" itemvalue="Python.game_functions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bullet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ship" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for 测试代码.test_namefounction.NamesTestCase.test_firstlastname" />
       </list>
     </recent_temporary>
   </component>
@@ -480,20 +560,59 @@
       <option name="project" value="LOCAL" />
       <updated>1508654413053</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2017.10.22 测试成功。哈哈">
+      <created>1508654434138</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1508654434138</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_name_founction_NamesTestCase_test_first_last_name - 2017.10.22 at 16h 01m 39s.xml">
+      <configuration name="Unittests for test_name_founction.NamesTestCase.test_first_last_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_name_founction_NamesTestCase_test_first_last_name - 2017.10.22 at 16h 07m 57s.xml">
+      <configuration name="Unittests for test_name_founction.NamesTestCase.test_first_last_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_name_founction_NamesTestCase_test_firstlastname - 2017.10.22 at 16h 34m 56s.xml">
+      <configuration name="Unittests for test_name_founction.NamesTestCase.test_firstlastname" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_name_founction_NamesTestCase_testfirst_last_name - 2017.10.22 at 15h 59m 23s.xml">
+      <configuration name="Unittests for test_name_founction.NamesTestCase.testfirst_last_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_name_founction_NamesTestCase_testfirst_last_name - 2017.10.22 at 16h 01m 13s.xml">
+      <configuration name="Unittests for test_name_founction.NamesTestCase.testfirst_last_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testnamefounction_NamesTestCase - 2017.10.22 at 16h 08m 34s.xml">
+      <configuration name="Unittests for testnamefounction.NamesTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testnamefounction_NamesTestCase_testfirstlast_name - 2017.10.22 at 16h 08m 11s.xml">
+      <configuration name="Unittests for testnamefounction.NamesTestCase.testfirstlast_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_测试代码_test_name_founction_NamesTestCase - 2017.10.22 at 16h 18m 14s.xml">
+      <configuration name="Unittests for 测试代码.test_name_founction.NamesTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_name_founction_py - 2017.10.22 at 16h 31m 15s.xml">
+      <configuration name="Unittests in test_name_founction.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_namefounction_py - 2017.10.22 at 16h 35m 17s.xml">
+      <configuration name="Unittests in test_namefounction.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16594827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14439656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5076283" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09292649" sideWeight="0.49425286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28987518" sideWeight="0.49425286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -506,7 +625,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26666668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -559,16 +678,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/基础/函数.py" />
-    <entry file="file://$PROJECT_DIR$/基础/for语句的简单运用(range).py" />
-    <entry file="file://$PROJECT_DIR$/基础/函数.py" />
-    <entry file="file://$PROJECT_DIR$/基础/for语句的简单运用(range).py" />
-    <entry file="file://$PROJECT_DIR$/基础/for语句的简单运用(range).py" />
-    <entry file="file://$PROJECT_DIR$/基础/for语句的简单运用(range).py" />
-    <entry file="file://C:/Program Files/Lib/this.py" />
-    <entry file="file://$PROJECT_DIR$/基础/函数.py" />
-    <entry file="file://$PROJECT_DIR$/基础/for语句的简单运用(range).py" />
-    <entry file="file://$PROJECT_DIR$/Day 1/guess_old_while语句.py" />
     <entry file="file://$PROJECT_DIR$/Day 1/guess_old_for语句.py" />
     <entry file="file://$PROJECT_DIR$/Day 1/guess_old_任性玩.py" />
     <entry file="file://C:/Program Files/Python35/Lib/__pycache__/uu.cpython-35.pyc">
@@ -780,19 +889,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/FS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FS.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,15 +901,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/银行存钱取钱(最简）.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="934">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试代码/name_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试代码/name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试代码/test_namefounction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pygame/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pygame/examples/data/alien1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/bullet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion(外星人入侵）/ailen_invasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
