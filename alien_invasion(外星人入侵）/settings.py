@@ -31,7 +31,7 @@ class Settings():
 		self.ship_speed_factor = 1.5
 
 		# 飞船移动的步长单位是像素
-		self.bullet_speed_factor = 3
+		self.bullet_speed_factor = 2
 
 		#外星人移动速度
 		self.alien_speed_factor = 1
