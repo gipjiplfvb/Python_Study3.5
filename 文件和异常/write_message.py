@@ -11,6 +11,6 @@ with open(filename, 'w') as file_object:
 	file_object.write("135464687645264687645.\n")
 #'r'为只读,'w'为写,'a'为续写。
 a = input("测试一下文件录入：")
-with open(filename, 'a') as file_object:
+with open(filename, 'a', encoding='utf-8') as file_object:
 	file_object.write("I like Pycharm IDE.\n")
-	file_object.write(a)
+	file_object.write(a,)
