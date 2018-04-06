@@ -1,13 +1,13 @@
-'''i = 0
+i = 0
 while i < 9:
 	i += 1
 	j = 1
 	while j <= i:
 		k = j * i
-		print ("%d*%d=%-2d  "%(j, i, k), end="")
+		print ("%d*%d=%2d  "%(j, i, k), end="")
 		j += 1
 	print ("")
-'''
+
 '''
 val = input("你现在的温度是多少？请输入：")
 if val[-1] in ['C', 'c']:
@@ -19,7 +19,4 @@ elif val[-1] in ['F', 'f']:
 else:
 	print ("输入有误")
 '''
-import os
-
-f = os.system('ping 127.0.0.1')
 

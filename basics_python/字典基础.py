@@ -22,7 +22,7 @@ for i in range(len(resList1)):
         else:
             resList2.append(resList1[i])
 print (resList2)'''
-
+'''
 alien_0 = {'color': 'green', 'points': 5}
 print (alien_0['color'])
 print (alien_0['points'])
@@ -153,4 +153,32 @@ for username, user_info in users.items():
 
     print ("\tFull name: " + full_name.title())
     print ("\ttlocation: " + location.title())
+'''
+'''
+data = {}
+data.setdefault('names',[]).append('python')
+print(data)
+'''
+n = int(input("请输入N的值："))
+print("请输入矩阵A的值：")
+a = []
+for i in range(n):
+	a.append([int(x) for x in input().split()])
+print(a)
 
+print("请输入矩阵B的值：")
+b = []
+for i in range(n):
+	b.append([int(x) for x in input().split()])
+print(b)
+c = []
+for i in range(n):
+	c.append([a[i][j] * b[i][j] for j in range(n)])
+print(c)
+print("矩阵乘法之后")
+print("-" * 7 * n)
+for x in c:
+	for y in x:
+		print(str(y).rjust(5), end=' ')
+	print()
+print("-" * 7 * n)

@@ -19,7 +19,7 @@ a = test(100)
 print (a)
 
 print("Hello, World")
-f = open("test.txt","w",encoding=)
+f = open("test1.txt","w",encoding=)
 '''
 '''
 name = input("请输入你的文件名：")
